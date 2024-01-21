@@ -5,7 +5,6 @@ import config
 from notifypy import Notify
 
 API_BASE_URL = "https://api.schoology.com/v1/users/"
-sliced_date = slice(10)
 
 class SchoologyAPI:
     def __init__(self):
